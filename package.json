@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vineet05/bootpack.git"
+    "url": "git+https://github.com/vineet05/bootflow.git"
   },
   "keywords": [
     "Bootstrap",
@@ -34,9 +34,9 @@
   "author": "Vineet Verma",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/vineet05/bootpack/issues"
+    "url": "https://github.com/vineet05/bootflow/issues"
   },
-  "homepage": "https://github.com/vineet05/bootpack#readme",
+  "homepage": "https://github.com/vineet05/bootflow#readme",
   "browserslist": {
     "production": [
       ">0.2%",
