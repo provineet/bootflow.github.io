@@ -1,0 +1,81 @@
+{
+  "name": "bootflow",
+  "version": "1.0.0",
+  "description": "A modern frontend development boilerplate with Gulp, Webpack, SCSS, Bootstrap 4.5.x, FontAwesome 5, Assets Optimization and more.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gulp copy-assets",
+    "serve": "gulp serve",
+    "build": "gulp build",
+    "dist": "gulp devdist",
+    "copy-vendors": "gulp copy-assets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineet05/bootpack.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "starter",
+    "kit",
+    "bootstrap",
+    "boilerplate",
+    "frontend",
+    "boilerplate",
+    "bootstrap",
+    "gulp",
+    "bootstrap",
+    "webpack",
+    "gulp",
+    "and",
+    "webpack",
+    "frontend"
+  ],
+  "author": "Vineet Verma",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vineet05/bootpack/issues"
+  },
+  "homepage": "https://github.com/vineet05/bootpack#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 ie version"
+    ]
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "bootstrap": "^4.5.0",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser-js": "^5.2.2",
+    "gulp.spritesmith": "^6.11.0",
+    "jquery": "^3.5.1",
+    "merge-stream": "^2.0.0",
+    "vinyl-buffer": "^1.0.1",
+    "webpack": "^4.43.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-loader": "^8.1.0"
+  }
+}
